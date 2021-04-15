@@ -2,6 +2,7 @@
 <playground version='6.0' target-platform='ios' buildActiveScheme='true'>
     <pages>
         <page name='01-First Generic Function'/>
-        <page name='02-Type Constraints in Generic with Protocols'/>
+        <page name='02-Type Constraints in Generics with Protocols'/>
+        <page name='03-Custom Generic Type'/>
     </pages>
 </playground>
