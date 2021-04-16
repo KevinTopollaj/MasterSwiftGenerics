@@ -4,5 +4,6 @@
         <page name='01-First Generic Function'/>
         <page name='02-Type Constraints in Generics with Protocols'/>
         <page name='03-Custom Generic Type'/>
+        <page name='04-Custom Generic Type Constraint  '/>
     </pages>
 </playground>
