@@ -24,10 +24,6 @@ Type parameters specify and name a placeholder type, and are written immediately
 
 * Custom Collection Data Structure using Generics
 
-* Discussion on how Swift Compiler handles Generics
+* Generic Network Manager
 
-* Generics to make everyday repeated task easy:
-
-- Generic Network Manager
-
-- Generic TableView
+* Generic TableView

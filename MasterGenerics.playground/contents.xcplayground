@@ -7,5 +7,6 @@
         <page name='04-Custom Generic Type Constraint  '/>
         <page name='05-Associated type in Generics'/>
         <page name='06-Generics in Enumerations'/>
+        <page name='07-Custom Collection Data Structure using Generics'/>
     </pages>
 </playground>
