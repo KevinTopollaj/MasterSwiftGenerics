@@ -11,7 +11,17 @@ class ViewController: UIViewController {
 
   override func viewDidLoad() {
     super.viewDidLoad()
-    // Do any additional setup after loading the view.
+    
+    NetworkManager().fetch(url: URL(string: "https://swapi.dev/api/people/?search=sky")!) { result in
+      
+      switch result {
+      case .failure(let error):
+        print(error)
+      case .success(let data):
+        let json = try? JSONDecoder().decode(SWAPIEnvelope.self, from: data)
+        print(json ?? "no data")
+      }
+    }
   }
 
 
