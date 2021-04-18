@@ -17,6 +17,7 @@
 		1F53280E262CAE4800C8A8B0 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F53280D262CAE4800C8A8B0 /* Person.swift */; };
 		1F532811262CAF4500C8A8B0 /* SWAPIEnvelope.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F532810262CAF4500C8A8B0 /* SWAPIEnvelope.swift */; };
 		1F532814262CAF7800C8A8B0 /* Film.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F532813262CAF7800C8A8B0 /* Film.swift */; };
+		1F532817262CB0BC00C8A8B0 /* GenericNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F532816262CB0BC00C8A8B0 /* GenericNetworkManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		1F53280D262CAE4800C8A8B0 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		1F532810262CAF4500C8A8B0 /* SWAPIEnvelope.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWAPIEnvelope.swift; sourceTree = "<group>"; };
 		1F532813262CAF7800C8A8B0 /* Film.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Film.swift; sourceTree = "<group>"; };
+		1F532816262CB0BC00C8A8B0 /* GenericNetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericNetworkManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 			isa = PBXGroup;
 			children = (
 				1F532809262CAA3D00C8A8B0 /* NetworkManager.swift */,
+				1F532816262CB0BC00C8A8B0 /* GenericNetworkManager.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -165,6 +168,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F532817262CB0BC00C8A8B0 /* GenericNetworkManager.swift in Sources */,
 				1F53280E262CAE4800C8A8B0 /* Person.swift in Sources */,
 				1F53280A262CAA3D00C8A8B0 /* NetworkManager.swift in Sources */,
 				1F532811262CAF4500C8A8B0 /* SWAPIEnvelope.swift in Sources */,
