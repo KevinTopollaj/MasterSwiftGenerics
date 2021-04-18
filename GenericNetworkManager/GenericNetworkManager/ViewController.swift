@@ -11,11 +11,20 @@ class ViewController: UIViewController {
   
   var people = [Person]()
   
-  private lazy var tableView: RegularTableView = {
-    let tableView = RegularTableView(items: people.map { $0.name }) { (name, cell) in
-      cell.textLabel?.text = name
-    } selectionHandler: { selectedName in
-      print(selectedName)
+//  private lazy var tableView: RegularTableView = {
+//    let tableView = RegularTableView(items: people.map { $0.name }) { (name, cell) in
+//      cell.textLabel?.text = name
+//    } selectionHandler: { selectedName in
+//      print(selectedName)
+//    }
+//    return tableView
+//  }()
+  
+  private lazy var tableView: GenericTableView<Person, PersonCell> = {
+    let tableView = GenericTableView<Person, PersonCell>(items: people) { (person, cell) in
+      cell.person = person
+    } selectionHandler: { person in
+      print(person)
     }
     return tableView
   }()
@@ -34,7 +43,7 @@ class ViewController: UIViewController {
         print(swapi)
         self.getFilm(for: swapi.results[0])
         self.people = swapi.results
-        self.tableView.reload(data: self.people.map { $0.name })
+        self.tableView.reload(data: self.people)
       case .failure(let error):
         print(error)
       }

@@ -19,6 +19,8 @@
 		1F532814262CAF7800C8A8B0 /* Film.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F532813262CAF7800C8A8B0 /* Film.swift */; };
 		1F532817262CB0BC00C8A8B0 /* GenericNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F532816262CB0BC00C8A8B0 /* GenericNetworkManager.swift */; };
 		1F53281B262CDD0F00C8A8B0 /* RegularTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F53281A262CDD0F00C8A8B0 /* RegularTableView.swift */; };
+		1F53281F262CE1FA00C8A8B0 /* GenericTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F53281E262CE1FA00C8A8B0 /* GenericTableView.swift */; };
+		1F532822262CE38600C8A8B0 /* PersonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F532821262CE38600C8A8B0 /* PersonCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +38,8 @@
 		1F532813262CAF7800C8A8B0 /* Film.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Film.swift; sourceTree = "<group>"; };
 		1F532816262CB0BC00C8A8B0 /* GenericNetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericNetworkManager.swift; sourceTree = "<group>"; };
 		1F53281A262CDD0F00C8A8B0 /* RegularTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegularTableView.swift; sourceTree = "<group>"; };
+		1F53281E262CE1FA00C8A8B0 /* GenericTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericTableView.swift; sourceTree = "<group>"; };
+		1F532821262CE38600C8A8B0 /* PersonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +109,8 @@
 			isa = PBXGroup;
 			children = (
 				1F53281A262CDD0F00C8A8B0 /* RegularTableView.swift */,
+				1F53281E262CE1FA00C8A8B0 /* GenericTableView.swift */,
+				1F532821262CE38600C8A8B0 /* PersonCell.swift */,
 			);
 			path = TableViews;
 			sourceTree = "<group>";
@@ -184,7 +190,9 @@
 				1F53280A262CAA3D00C8A8B0 /* NetworkManager.swift in Sources */,
 				1F532811262CAF4500C8A8B0 /* SWAPIEnvelope.swift in Sources */,
 				1F5327F8262CA94000C8A8B0 /* ViewController.swift in Sources */,
+				1F53281F262CE1FA00C8A8B0 /* GenericTableView.swift in Sources */,
 				1F5327F4262CA94000C8A8B0 /* AppDelegate.swift in Sources */,
+				1F532822262CE38600C8A8B0 /* PersonCell.swift in Sources */,
 				1F5327F6262CA94000C8A8B0 /* SceneDelegate.swift in Sources */,
 				1F53281B262CDD0F00C8A8B0 /* RegularTableView.swift in Sources */,
 				1F532814262CAF7800C8A8B0 /* Film.swift in Sources */,
