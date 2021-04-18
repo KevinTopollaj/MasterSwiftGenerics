@@ -18,6 +18,7 @@
 		1F532811262CAF4500C8A8B0 /* SWAPIEnvelope.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F532810262CAF4500C8A8B0 /* SWAPIEnvelope.swift */; };
 		1F532814262CAF7800C8A8B0 /* Film.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F532813262CAF7800C8A8B0 /* Film.swift */; };
 		1F532817262CB0BC00C8A8B0 /* GenericNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F532816262CB0BC00C8A8B0 /* GenericNetworkManager.swift */; };
+		1F53281B262CDD0F00C8A8B0 /* RegularTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F53281A262CDD0F00C8A8B0 /* RegularTableView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		1F532810262CAF4500C8A8B0 /* SWAPIEnvelope.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWAPIEnvelope.swift; sourceTree = "<group>"; };
 		1F532813262CAF7800C8A8B0 /* Film.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Film.swift; sourceTree = "<group>"; };
 		1F532816262CB0BC00C8A8B0 /* GenericNetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericNetworkManager.swift; sourceTree = "<group>"; };
+		1F53281A262CDD0F00C8A8B0 /* RegularTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegularTableView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 		1F5327F2262CA94000C8A8B0 /* GenericNetworkManager */ = {
 			isa = PBXGroup;
 			children = (
+				1F532819262CDCFE00C8A8B0 /* TableViews */,
 				1F53280C262CAE1E00C8A8B0 /* Models */,
 				1F532808262CAA2200C8A8B0 /* Managers */,
 				1F5327F3262CA94000C8A8B0 /* AppDelegate.swift */,
@@ -96,6 +99,14 @@
 				1F532813262CAF7800C8A8B0 /* Film.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		1F532819262CDCFE00C8A8B0 /* TableViews */ = {
+			isa = PBXGroup;
+			children = (
+				1F53281A262CDD0F00C8A8B0 /* RegularTableView.swift */,
+			);
+			path = TableViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -175,6 +186,7 @@
 				1F5327F8262CA94000C8A8B0 /* ViewController.swift in Sources */,
 				1F5327F4262CA94000C8A8B0 /* AppDelegate.swift in Sources */,
 				1F5327F6262CA94000C8A8B0 /* SceneDelegate.swift in Sources */,
+				1F53281B262CDD0F00C8A8B0 /* RegularTableView.swift in Sources */,
 				1F532814262CAF7800C8A8B0 /* Film.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
